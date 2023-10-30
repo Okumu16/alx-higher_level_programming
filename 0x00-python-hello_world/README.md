@@ -1,0 +1,1 @@
+This is my first python project. it is all about writing scripts that automate some common tasks
