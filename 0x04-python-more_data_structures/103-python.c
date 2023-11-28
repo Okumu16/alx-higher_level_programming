@@ -1,10 +1,6 @@
 #include "/usr/include/python3.4/Python.h"
 #include <stdio.h>
-/**
- * print_hexn-...
- * @n:....
- * @str:....
-*/
+
 void print_hexn(const char *str, int n)
 {
 	int i = 0;
@@ -14,10 +10,7 @@ void print_hexn(const char *str, int n)
 
 	printf("%02x", str[i]);
 }
-/**
- * print_python_bytes-......
- * @p:.....
-*/
+
 void print_python_bytes(PyObject *p)
 {
 	PyBytesObject *clone = (PyBytesObject *) p;
@@ -43,10 +36,7 @@ void print_python_bytes(PyObject *p)
 		printf("  [ERROR] Invalid Bytes Object\n");
 	}
 }
-/**
- * print_python_list-.....
- * @p:.....
-*/
+
 void print_python_list(PyObject *p)
 {
 	int i = 0, list_len = 0;
