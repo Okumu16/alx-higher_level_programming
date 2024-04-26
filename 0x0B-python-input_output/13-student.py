@@ -25,3 +25,4 @@ class Student:
         for i in json:
             if i in self.__dict__.keys():
                 self.__dict__[i] = json[i]
+                
