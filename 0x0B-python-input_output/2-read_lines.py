@@ -10,4 +10,3 @@ def read_lines(filename="", nb_lines=0):
         else:
             for i in range(nb_lines):
                 print(text[i], end='')
-                

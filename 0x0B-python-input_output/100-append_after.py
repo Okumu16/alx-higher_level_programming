@@ -13,4 +13,3 @@ def append_after(filename="", search_string="", new_string=""):
     with open(filename, mode='w', encoding='utf-8') as nf:
         for line in new_text:
             nf.write(line)
-            
